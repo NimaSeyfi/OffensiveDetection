@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//Preprocess/createDataset.py=UTF-8
+encoding//Preprocess/dictTagger.py=UTF-8
+encoding//Preprocess/gatheringData.py=UTF-8
+encoding//Preprocess/googleSearch.py=UTF-8
+encoding//Preprocess/tagger.py=UTF-8
+encoding//main/main.py=UTF-8
+encoding//main/pretrainedModel.py=UTF-8
+encoding//stopwordlists/persian=UTF-8

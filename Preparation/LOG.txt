@@ -1,0 +1,150 @@
+2020-08-24 16:17:04.919556	[LOG]	100 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 16:53:39.885350	[LOG]	100 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 17:25:44.062860	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 17:57:58.848982	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 18:30:12.390431	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 19:03:31.387943	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 19:34:32.484001	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 20:05:00.758784	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 20:36:00.226202	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 21:07:07.570567	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 21:54:09.478782	[LOG]	100 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 22:25:56.740465	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 22:56:19.487023	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 23:27:53.949912	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-24 23:57:51.360183	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 00:28:13.288926	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 01:00:18.061809	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 01:32:11.275585	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 02:02:24.017880	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 02:33:22.051130	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 16:07:32.917695	[LOG]	100 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 16:38:22.624199	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 17:09:37.822575	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 17:41:02.759922	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 18:11:43.470469	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 18:42:58.273900	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 19:13:17.803056	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 19:44:17.066020	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 20:15:13.523482	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 20:45:53.384300	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 21:17:09.443375	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-25 21:47:49.652329	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-26 19:36:44.470019	[LOG]	100 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-26 20:07:19.291084	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:07:34.913333	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:07:50.534584	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:08:06.152842	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:08:21.773098	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:08:37.393349	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:08:41.918256	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:08:46.442166	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:08:53.012606	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:08:57.537512	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:09:08.632859	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:09:13.157766	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:09:24.253113	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:09:28.778020	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:09:39.874364	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:09:44.399270	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:09:55.494617	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:10:00.018527	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:10:11.114871	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:10:15.638780	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:10:26.733130	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:10:31.260032	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:10:42.355379	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:10:57.974634	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:11:13.593891	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:11:29.213147	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:11:44.834398	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:12:00.455648	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:12:16.076899	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:12:31.696156	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:12:47.316409	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:13:02.936663	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:13:18.556916	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:13:34.178167	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:13:49.797424	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:14:05.417677	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:14:21.038928	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:14:36.658184	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:14:52.278438	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:15:07.898691	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:15:23.517947	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:15:39.138201	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:15:54.757457	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:16:10.378708	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:16:25.997964	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:16:41.619215	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:16:57.239469	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:17:12.859723	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:17:28.478979	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:17:44.098235	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:17:59.717491	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:18:15.338742	[ERR]	Google search-error catched-query : {دانشگاه آزاد واحد ساوه}	[SOURCE]	googleSearch.py
+2020-08-26 20:20:32.590924	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-26 20:50:48.193302	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-26 21:25:20.117623	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-26 21:57:25.109495	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-26 22:27:00.904637	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-26 22:57:44.724796	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-26 23:28:21.795573	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-26 23:58:22.119931	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 15:34:02.086198	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:34:17.955740	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:34:33.546030	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:34:49.134892	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:35:04.724848	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:35:20.313383	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:35:35.904711	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:35:40.427610	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:35:44.950565	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:35:51.493185	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:35:56.019716	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:36:07.093754	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:36:11.619719	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:36:22.683838	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:36:27.208307	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:36:38.275394	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:36:42.800874	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:36:53.866460	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:37:09.457021	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:37:25.054576	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:37:40.644642	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:37:56.234688	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:38:11.824766	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:38:27.414113	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:38:43.005398	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:38:58.594690	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:39:14.185977	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:39:29.776267	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:39:45.400465	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:40:00.986766	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:40:16.576058	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:40:32.162358	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:40:47.752648	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:41:03.338948	[ERR]	Google search-error catched-query : {ارسنجان نیوز}	[SOURCE]	googleSearch.py
+2020-08-30 15:45:03.272399	[LOG]	100 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 16:14:52.776554	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 16:45:21.655566	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 17:15:14.213891	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 17:45:46.346691	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 18:15:56.261454	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 18:45:33.822315	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 19:16:04.968327	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 19:45:36.925877	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 20:16:41.430602	[ERR]	Google search-error catched-query : {بایگانی}	[SOURCE]	googleSearch.py
+2020-08-30 20:16:57.054113	[ERR]	Google search-error catched-query : {بایگانی}	[SOURCE]	googleSearch.py
+2020-08-30 20:20:52.787423	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-30 20:50:15.419336	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 14:54:09.081276	[LOG]	100 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 15:25:50.543521	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 15:55:56.842853	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 16:26:45.404616	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 16:57:58.488731	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 17:28:53.909101	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 18:01:19.032497	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 18:31:51.585087	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 19:03:20.546727	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 19:35:15.447644	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py

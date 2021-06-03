@@ -1,0 +1,381 @@
+2020-08-19 18:50:58.086340	[LOG]	Extract -1 queries from SearchQueries.txt to SearchQueries2.txt - mode : 1	[SOURCE]	mainPreprocess.py
+2020-08-19 19:07:04.707273	[LOG]	753481 queries extracted from : SearchQueries.txt	[SOURCE]	extractQueries.py
+2020-08-19 19:56:13.888166	[LOG]	Get data and create splitted dataset from SearchQueries_all_extracted.txt to data_splitted.csv range 0 to 100 (google search : y)	[SOURCE]	mainPreprocess.py
+2020-08-19 19:59:44.312146	[LOG]	Get data and create splitted dataset from SearchQueries_all_extracted.txt to Dataset_Splitted_datas.csv range 0 to 10 (google search : y)	[SOURCE]	mainPreprocess.py
+2020-08-19 20:04:54.241037	[LOG]	10 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-19 20:14:23.231943	[LOG]	Get data and create splitted dataset from SearchQueries_all_extracted.txt to Dataset_Splitted_datas.csv range 10 to 20 (google search : y)	[SOURCE]	mainPreprocess.py
+2020-08-19 20:19:39.290267	[LOG]	10 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-08-19 20:24:39.329990	[LOG]	Get data and create splitted dataset from SearchQueries_all_extracted.txt to Dataset_Splitted_datas.csv range 20 to 100 (google search : y)	[SOURCE]	mainPreprocess.py
+2020-08-19 21:04:12.112165	[LOG]	80 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 00:25:36.240533	[LOG]	100 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 00:56:47.048769	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 01:27:57.847019	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 01:58:51.485664	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 02:29:55.483100	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 03:00:45.621540	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 03:31:53.529472	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 04:03:00.996583	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 04:34:07.886284	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 05:04:54.329604	[LOG]	99 data saved correctly (google search included) to : Dataset_Splitted_datas.csv	[SOURCE]	gatheringData.py
+2020-09-05 21:16:55.703882	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : y -start write data : 0 - Tagger Strictness : 11	[SOURCE]	mainPreprocess.py
+2020-09-05 21:16:55.999093	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-05 21:27:12.427067	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : y -start write data : 180 - Tagger Strictness : 11	[SOURCE]	mainPreprocess.py
+2020-09-05 21:27:12.436045	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-05 22:04:52.554851	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 700 - Tagger Strictness : 11	[SOURCE]	mainPreprocess.py
+2020-09-05 22:05:25.109760	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 700 - Tagger Strictness : 11	[SOURCE]	mainPreprocess.py
+2020-09-05 22:05:25.119735	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-05 22:39:14.508337	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 2000 - Tagger Strictness : 11	[SOURCE]	mainPreprocess.py
+2020-09-05 22:39:14.516317	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-05 22:41:16.075121	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 2000 - Tagger Strictness : 11	[SOURCE]	mainPreprocess.py
+2020-09-05 22:41:16.085095	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-05 22:46:37.368595	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2020-09-05 22:46:37.375576	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2020-09-05 22:46:37.387544	[LOG]	Naive Bayes model trained with accuarcy : 95.91439688715954	[SOURCE]	train.py
+2020-09-05 22:46:37.401507	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2020-09-05 22:46:37.415470	[LOG]	starting SVM training.	[SOURCE]	train.py
+2020-09-05 22:46:38.385873	[LOG]	SVM model trained with accuarcy : 96.88715953307393	[SOURCE]	train.py
+2020-09-05 22:46:38.400835	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2020-09-05 22:59:25.369036	[LOG]	Naive Bayes Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-05 22:59:25.379009	[LOG]	SVM Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-05 22:59:25.452811	[LOG]	Vectorizer Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-05 23:05:23.736330	[LOG]	Naive Bayes Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-05 23:05:23.744309	[LOG]	SVM Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-05 23:05:23.760267	[LOG]	Vectorizer Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-05 23:05:55.556204	[LOG]	2 data saved correctly (google search included) to : input_queries_splitted.csv	[SOURCE]	gatheringData.py
+2020-09-05 23:05:55.563187	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-05 23:05:55.595101	[LOG]	input text processed and saved to : input_queries_dataset.csv	[SOURCE]	createDataset.py
+2020-09-05 23:05:58.031582	[LOG]	Prediction for : نیما نیما-ورود sanarate.ir: صفحه نخست ارز نیما - شبکه اطلاع رسانی طلا و ارز نیما-ورود نیما (نام کوچک...	[SOURCE]	pretrainedModel.py
+2020-09-05 23:05:58.038565	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-05 23:05:58.058511	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-05 23:05:58.203123	[LOG]	Prediction for : کیر کیر - ویکی‌پدیا، دانشنامهٔ آزاد آلت مردی - ویکی‌پدیا، دانشنامهٔ آزاد دنیل کلی: چیزی که درباره کا...	[SOURCE]	pretrainedModel.py
+2020-09-05 23:05:58.210106	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-05 23:05:58.234042	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-06 00:30:37.012851	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 2500 - Tagger Strictness : 11	[SOURCE]	mainPreprocess.py
+2020-09-06 00:30:37.022824	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-06 02:33:34.521031	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 3022 - Tagger Strictness : 11	[SOURCE]	mainPreprocess.py
+2020-09-06 02:33:34.536988	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-06 15:07:50.745784	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 4100 - Tagger Strictness : 12	[SOURCE]	mainPreprocess.py
+2020-09-06 15:07:50.794654	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-07 02:19:19.212701	[LOG]	create dataset from Dataset_splitted_datas.csv to Dataset.csv -columns : n -start write data : 4500 - Tagger Strictness : 12	[SOURCE]	mainPreprocess.py
+2020-09-07 02:19:19.518882	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-07 03:59:32.790167	[LOG]	create dataset from Dataset_splitted_datas.csv to Dataset.csv -columns : n -start write data : 5991 - Tagger Strictness : 12	[SOURCE]	mainPreprocess.py
+2020-09-07 03:59:32.811110	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-07 14:08:47.975016	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 6750 - Tagger Strictness : 12	[SOURCE]	mainPreprocess.py
+2020-09-07 14:08:48.036852	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-07 14:27:02.620614	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 6805 - Tagger Strictness : 12	[SOURCE]	mainPreprocess.py
+2020-09-07 14:27:02.632583	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-07 14:49:58.898788	[LOG]	dataset text and lable processed and saved to : Dataset.csv	[SOURCE]	createDataset.py
+2020-09-07 14:56:09.460261	[LOG]	Get data and create splitted dataset from SearchQueries_all_extracted.txt to Dataset_Splitted_datas.csv range 10000 to 11000 (google search : y)	[SOURCE]	mainPreprocess.py
+2020-09-07 14:56:42.646481	[LOG]	create dataset from Dataset_Splitted_datas.csv to Dataset.csv -columns : n -start write data : 7350 - Tagger Strictness : 11	[SOURCE]	mainPreprocess.py
+2020-09-07 15:07:11.192990	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2020-09-07 15:07:11.193988	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2020-09-07 15:07:11.213934	[LOG]	Naive Bayes model trained with accuarcy : 97.33115468409585	[SOURCE]	train.py
+2020-09-07 15:07:11.249838	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2020-09-07 15:07:11.265797	[LOG]	starting SVM training.	[SOURCE]	train.py
+2020-09-07 15:07:17.599850	[LOG]	SVM model trained with accuarcy : 97.87581699346404	[SOURCE]	train.py
+2020-09-07 15:07:17.649717	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2020-09-07 15:08:28.821878	[LOG]	Naive Bayes Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-07 15:08:28.837836	[LOG]	SVM Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-07 15:08:28.864764	[LOG]	Vectorizer Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-07 15:08:57.933997	[LOG]	2 data saved correctly (google search included) to : input_queries_splitted.csv	[SOURCE]	gatheringData.py
+2020-09-07 15:08:57.943972	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-07 15:08:57.966909	[LOG]	input text processed and saved to : input_queries_dataset.csv	[SOURCE]	createDataset.py
+2020-09-07 15:09:00.335572	[LOG]	Prediction for : نیما sanarate.ir: صفحه نخست نیما-ورود ارز نیما - شبکه اطلاع رسانی طلا و ارز نیما (نام کوچک) - ویکی‌پ...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:09:00.346544	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:09:00.408378	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:09:00.567951	[LOG]	Prediction for : کیر کیر - ویکی‌پدیا، دانشنامهٔ آزاد آلت مردی - ویکی‌پدیا، دانشنامهٔ آزاد دنیل کلی: چیزی که درباره کا...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:09:00.578922	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:09:00.594879	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:10:02.105326	[LOG]	Naive Bayes Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-07 15:10:02.116297	[LOG]	SVM Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-07 15:10:02.135246	[LOG]	Vectorizer Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:26.340978	[LOG]	6 data saved correctly (google search included) to : input_queries_splitted.csv	[SOURCE]	gatheringData.py
+2020-09-07 15:11:26.351950	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-07 15:11:26.407800	[LOG]	input text processed and saved to : input_queries_dataset.csv	[SOURCE]	createDataset.py
+2020-09-07 15:11:28.998868	[LOG]	Prediction for : نیما نیما-ورود sanarate.ir: صفحه نخست ارز نیما - شبکه اطلاع رسانی طلا و ارز نیما (نام کوچک) - ویکی‌پ...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:29.027792	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:29.053721	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:29.373864	[LOG]	Prediction for : کیر کیر - ویکی‌پدیا، دانشنامهٔ آزاد آلت مردی - ویکی‌پدیا، دانشنامهٔ آزاد دنیل کلی: چیزی که درباره کا...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:29.381844	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:29.399795	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:29.709965	[LOG]	Prediction for : سکس کرونا؛ 'بهتر است در زمان سکس از ماسک استفاده کنید' - BBC ... آمیزش جنسی - ویکی‌پدیا، دانشنامهٔ آ...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:29.720936	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:29.746867	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:30.075986	[LOG]	Prediction for : کون کردنه جنده از کون و کس - XVIDEOS.COM آنجا که به منظور به طور کامل از این عکس کون کس ما باید | کس...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:30.083967	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:30.099922	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:30.410092	[LOG]	Prediction for : کردن تجاوز فجیع به دختر جوان و لخت کردن او جلوی چشم پدرش + جزئیات بریدن آلت زنانه - ویکی‌پدیا، دانشن...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:30.418072	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:30.433031	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:30.754172	[LOG]	Prediction for : جنده بلوند فیلم سکس در جنده خانه جنده ایرانی - XVIDEOS.COM پرستو خانم جنده حشری شده - XVIDEOS.COM تن...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:30.765143	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:11:30.782097	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:28:19.807391	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2020-09-07 15:28:19.815370	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2020-09-07 15:28:19.835317	[LOG]	Naive Bayes model trained with accuarcy : 97.44287268770402	[SOURCE]	train.py
+2020-09-07 15:28:19.842298	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2020-09-07 15:28:19.849280	[LOG]	starting SVM training.	[SOURCE]	train.py
+2020-09-07 15:28:25.503154	[LOG]	SVM model trained with accuarcy : 98.15016322089227	[SOURCE]	train.py
+2020-09-07 15:28:25.530082	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2020-09-07 15:32:38.668930	[LOG]	Naive Bayes Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-07 15:32:38.679902	[LOG]	SVM Model Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-07 15:32:38.699848	[LOG]	Vectorizer Loaded Successfully	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:02.971404	[LOG]	6 data saved correctly (google search included) to : input_queries_splitted.csv	[SOURCE]	gatheringData.py
+2020-09-07 15:34:02.978386	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2020-09-07 15:34:03.007308	[LOG]	input text processed and saved to : input_queries_dataset.csv	[SOURCE]	createDataset.py
+2020-09-07 15:34:05.543523	[LOG]	Prediction for : نیما نیما-ورود sanarate.ir: صفحه نخست ارز نیما - شبکه اطلاع رسانی طلا و ارز نیما (نام کوچک) - ویکی‌پ...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:05.550505	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:05.565465	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:05.886605	[LOG]	Prediction for : کیر کیر - ویکی‌پدیا، دانشنامهٔ آزاد آلت مردی - ویکی‌پدیا، دانشنامهٔ آزاد دنیل کلی: چیزی که درباره کا...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:05.893587	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:05.909544	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:06.224701	[LOG]	Prediction for : سکس کرونا؛ 'بهتر است در زمان سکس از ماسک استفاده کنید' - BBC ... آمیزش جنسی - ویکی‌پدیا، دانشنامهٔ آ...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:06.235672	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:06.250631	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:06.563793	[LOG]	Prediction for : کون کردنه جنده از کون و کس - XVIDEOS.COM آنجا که به منظور به طور کامل از این عکس کون کس ما باید | کس...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:06.570775	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:06.587729	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:06.914854	[LOG]	Prediction for : کردن تجاوز فجیع به دختر جوان و لخت کردن او جلوی چشم پدرش + جزئیات بریدن آلت زنانه - ویکی‌پدیا، دانشن...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:06.921836	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:06.937793	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:07.250955	[LOG]	Prediction for : جنده بلوند فیلم سکس در جنده خانه جنده ایرانی - XVIDEOS.COM پرستو خانم جنده حشری شده - XVIDEOS.COM تن...	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:07.260929	[LOG]	--Naive Bayes Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2020-09-07 15:34:07.275889	[LOG]	--SVM Result : 0 - NOT OFFENSIVE	[SOURCE]	pretrainedModel.py
+2021-03-09 16:57:54.587912	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 16:57:54.606912	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 17:03:31.753858	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 17:03:31.761861	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 17:03:31.951860	[LOG]	SVM model trained with accuarcy : 86.5546218487395	[SOURCE]	train.py
+2021-03-09 17:03:31.986858	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-09 17:21:10.404224	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 17:21:10.413225	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 17:23:02.340554	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 17:23:02.350556	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 17:23:02.535554	[LOG]	SVM model trained with accuarcy : 86.5546218487395	[SOURCE]	train.py
+2021-03-09 17:23:02.548557	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-09 17:23:58.690662	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 17:23:58.699664	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 17:25:03.929350	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 17:25:03.938351	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 17:25:04.118351	[LOG]	SVM model trained with accuarcy : 94.11764705882352	[SOURCE]	train.py
+2021-03-09 17:25:04.133354	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-09 17:33:37.179526	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 17:33:37.187528	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 17:35:38.336327	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 17:35:38.347331	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 17:35:38.531329	[LOG]	SVM model trained with accuarcy : 86.5546218487395	[SOURCE]	train.py
+2021-03-09 17:35:38.540329	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-09 17:50:24.578496	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 17:50:24.588496	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 18:26:18.807255	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-09 18:26:18.815257	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-09 18:26:25.185257	[LOG]	SVM model trained with accuarcy : 98.5302123026674	[SOURCE]	train.py
+2021-03-09 18:26:25.200259	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-09 19:17:46.875759	[LOG]	52 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 19:17:46.909761	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 19:19:32.301983	[LOG]	dataset text and lable processed and saved to : OffDataset.csv	[SOURCE]	createDataset.py
+2021-03-09 19:26:52.011426	[ERR]	Google search-error catched-query : {زنا زاده های لاشی}	[SOURCE]	googleSearch.py
+2021-03-09 19:27:04.030315	[ERR]	Google search-error catched-query : {زنا زاده های لاشی}	[SOURCE]	googleSearch.py
+2021-03-09 19:27:16.056725	[ERR]	Google search-error catched-query : {زنا زاده های لاشی}	[SOURCE]	googleSearch.py
+2021-03-09 19:27:28.073604	[ERR]	Google search-error catched-query : {زنا زاده های لاشی}	[SOURCE]	googleSearch.py
+2021-03-09 19:27:40.090741	[ERR]	Google search-error catched-query : {زنا زاده های لاشی}	[SOURCE]	googleSearch.py
+2021-03-09 19:27:52.111181	[ERR]	Google search-error catched-query : {زنا زاده های لاشی}	[SOURCE]	googleSearch.py
+2021-03-09 19:28:04.128592	[ERR]	Google search-error catched-query : {زنا زاده های لاشی}	[SOURCE]	googleSearch.py
+2021-03-09 19:28:16.143212	[ERR]	Google search-error catched-query : {زنا زاده های لاشی}	[SOURCE]	googleSearch.py
+2021-03-09 19:28:28.163801	[ERR]	Google search-error catched-query : {زنا زاده های لاشی}	[SOURCE]	googleSearch.py
+2021-03-09 19:30:38.522754	[LOG]	3 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 19:30:38.531758	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 19:31:12.571550	[LOG]	dataset text and lable processed and saved to : OffDataset.csv	[SOURCE]	createDataset.py
+2021-03-09 19:32:49.204473	[LOG]	3 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 19:32:49.214473	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 19:41:04.919943	[LOG]	1 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 19:41:04.929940	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 19:42:15.462620	[LOG]	2 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 19:42:15.475623	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 19:44:55.674771	[LOG]	2 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 19:44:55.686773	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 19:52:13.752409	[LOG]	2 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 19:52:13.765412	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 19:53:17.838118	[LOG]	dataset text and lable processed and saved to : OffDataset.csv	[SOURCE]	createDataset.py
+2021-03-09 23:16:23.073514	[LOG]	2 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 23:16:23.143570	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 23:17:29.000456	[LOG]	2 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 23:17:29.013461	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 23:18:43.145481	[LOG]	2 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 23:18:43.158486	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 23:20:05.215898	[LOG]	dataset text and lable processed and saved to : OffDataset.csv	[SOURCE]	createDataset.py
+2021-03-09 23:24:59.087737	[LOG]	2 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 23:24:59.136810	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 23:28:38.975729	[LOG]	2 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 23:28:39.025763	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 23:44:02.948811	[ERR]	Google search-error catched-query : {سوپر ایرانی}	[SOURCE]	googleSearch.py
+2021-03-09 23:44:37.480772	[ERR]	Google search-error catched-query : {سوپر ایرانی}	[SOURCE]	googleSearch.py
+2021-03-09 23:45:10.112639	[ERR]	Google search-error catched-query : {سوپر ایرانی}	[SOURCE]	googleSearch.py
+2021-03-09 23:46:33.089636	[LOG]	52 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-09 23:46:33.102637	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-09 23:48:17.159226	[LOG]	dataset text and lable processed and saved to : OffDataset.csv	[SOURCE]	createDataset.py
+2021-03-10 00:14:28.912253	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : SVM	[SOURCE]	train.py
+2021-03-10 00:14:28.962258	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-10 00:14:36.680255	[LOG]	SVM model trained with accuarcy : 98.05405405405405	[SOURCE]	train.py
+2021-03-10 00:14:36.697256	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-10 00:34:04.922076	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : NB	[SOURCE]	train.py
+2021-03-10 00:34:04.937077	[ERR]	no model(s) found.	[SOURCE]	train.py
+2021-03-10 00:41:06.487001	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : NAIVE_BAYES	[SOURCE]	train.py
+2021-03-10 00:41:06.501002	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-10 00:41:06.819080	[LOG]	Naive Bayes model trained with accuarcy : 97.2972972972973	[SOURCE]	train.py
+2021-03-10 00:41:06.834081	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-10 01:05:06.696478	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : KNN	[SOURCE]	train.py
+2021-03-10 01:05:06.750479	[LOG]	starting KNN training.	[SOURCE]	train.py
+2021-03-10 01:05:07.688479	[LOG]	knn model trained with accuarcy : 97.02702702702702	[SOURCE]	train.py
+2021-03-10 01:05:07.722480	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-10 01:06:43.439733	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : KNN	[SOURCE]	train.py
+2021-03-10 01:06:43.450737	[LOG]	starting KNN training.	[SOURCE]	train.py
+2021-03-10 01:06:43.480739	[LOG]	knn model trained with accuarcy : 82.57575757575758	[SOURCE]	train.py
+2021-03-10 01:06:43.498736	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-10 01:10:05.975063	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-10 01:10:05.988065	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-10 01:10:06.008068	[LOG]	Naive Bayes model trained with accuarcy : 84.0909090909091	[SOURCE]	train.py
+2021-03-10 01:10:06.020066	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-10 01:10:06.032065	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-10 01:10:06.259067	[LOG]	SVM model trained with accuarcy : 84.84848484848484	[SOURCE]	train.py
+2021-03-10 01:10:06.282073	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-10 01:10:06.298067	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-10 01:10:06.333066	[LOG]	knn model trained with accuarcy : 82.57575757575758	[SOURCE]	train.py
+2021-03-10 01:10:06.349065	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-10 17:18:44.596715	[LOG]	64 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-10 17:18:44.680717	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-10 17:20:53.076453	[LOG]	dataset text and lable processed and saved to : OffDataset.csv	[SOURCE]	createDataset.py
+2021-03-10 19:18:43.526722	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-10 19:18:43.549066	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-10 19:18:43.574413	[LOG]	Naive Bayes model trained with accuarcy : 85.8108108108108	[SOURCE]	train.py
+2021-03-10 19:18:43.590416	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-10 19:18:43.605413	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-10 19:18:43.869621	[LOG]	SVM model trained with accuarcy : 85.13513513513513	[SOURCE]	train.py
+2021-03-10 19:18:43.886623	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-10 19:18:43.904621	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-10 19:18:43.936622	[LOG]	knn model trained with accuarcy : 80.4054054054054	[SOURCE]	train.py
+2021-03-10 19:18:43.952623	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-10 19:25:18.543106	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-10 19:25:18.561108	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-10 19:26:44.972524	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-10 19:26:44.988153	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-10 19:26:45.012434	[LOG]	Naive Bayes model trained with accuarcy : 85.8108108108108	[SOURCE]	train.py
+2021-03-10 19:26:45.044427	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-10 19:26:45.060425	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-10 19:26:45.330122	[LOG]	SVM model trained with accuarcy : 85.13513513513513	[SOURCE]	train.py
+2021-03-10 19:26:45.346115	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-10 19:26:45.361113	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-10 19:26:45.396116	[LOG]	knn model trained with accuarcy : 80.4054054054054	[SOURCE]	train.py
+2021-03-10 19:26:45.412113	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-11 21:56:26.615932	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-11 21:56:26.658932	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-11 21:56:26.682935	[LOG]	Naive Bayes model trained with accuarcy : 97.80278670953912	[SOURCE]	train.py
+2021-03-11 21:56:26.722940	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-11 21:56:26.745935	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-11 21:56:34.755949	[LOG]	SVM model trained with accuarcy : 98.12433011789925	[SOURCE]	train.py
+2021-03-11 21:56:34.773949	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-11 21:56:34.790953	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-11 21:56:35.608946	[LOG]	knn model trained with accuarcy : 96.89174705251877	[SOURCE]	train.py
+2021-03-11 21:56:35.629944	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-11 21:57:49.789859	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-11 21:57:49.800860	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-11 21:57:49.823860	[LOG]	Naive Bayes model trained with accuarcy : 85.8108108108108	[SOURCE]	train.py
+2021-03-11 21:57:49.838862	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-11 21:57:49.854871	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-11 21:57:50.125861	[LOG]	SVM model trained with accuarcy : 85.13513513513513	[SOURCE]	train.py
+2021-03-11 21:57:50.138864	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-11 21:57:50.154861	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-11 21:57:50.189861	[LOG]	knn model trained with accuarcy : 80.4054054054054	[SOURCE]	train.py
+2021-03-11 21:57:50.205860	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-12 20:54:09.078350	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-12 20:54:09.120351	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-12 20:54:09.207430	[LOG]	Naive Bayes model trained with accuarcy : 85.8108108108108	[SOURCE]	train.py
+2021-03-12 20:54:09.221431	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-12 20:54:09.241431	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-12 20:54:09.607431	[LOG]	SVM model trained with accuarcy : 85.13513513513513	[SOURCE]	train.py
+2021-03-12 20:54:09.624431	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-12 20:54:09.639433	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-12 20:54:09.676429	[LOG]	knn model trained with accuarcy : 80.4054054054054	[SOURCE]	train.py
+2021-03-12 20:54:09.717436	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-13 01:10:16.687877	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-13 01:10:16.710877	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-13 01:10:16.766879	[LOG]	Naive Bayes model trained with accuarcy : 85.8108108108108	[SOURCE]	train.py
+2021-03-13 01:10:16.784878	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-13 01:10:16.800878	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-13 01:10:17.087881	[LOG]	SVM model trained with accuarcy : 85.13513513513513	[SOURCE]	train.py
+2021-03-13 01:10:17.100878	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-13 01:10:17.116877	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-13 01:10:17.171880	[LOG]	knn model trained with accuarcy : 80.4054054054054	[SOURCE]	train.py
+2021-03-13 01:10:17.185891	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-13 01:12:57.025330	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-13 01:12:57.038331	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-13 01:12:57.064333	[LOG]	Naive Bayes model trained with accuarcy : 85.8108108108108	[SOURCE]	train.py
+2021-03-13 01:12:57.104337	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-13 01:12:57.118331	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-13 01:12:57.392331	[LOG]	SVM model trained with accuarcy : 85.13513513513513	[SOURCE]	train.py
+2021-03-13 01:12:57.413334	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-13 01:12:57.429332	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-13 01:12:57.463332	[LOG]	knn model trained with accuarcy : 82.43243243243244	[SOURCE]	train.py
+2021-03-13 01:12:57.480333	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-15 22:04:48.806965	[ERR]	Google search-error catched-query : {س ک س بچه}	[SOURCE]	googleSearch.py
+2021-03-15 22:14:01.921247	[ERR]	Google search-error catched-query : {س ک س بچه}	[SOURCE]	googleSearch.py
+2021-03-15 22:32:36.708820	[LOG]	101 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-15 22:32:36.758924	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-15 22:35:58.908462	[LOG]	dataset text and lable processed and saved to : OffDataset.csv	[SOURCE]	createDataset.py
+2021-03-15 23:21:21.886034	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-15 23:21:21.925034	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-15 23:21:22.015111	[LOG]	Naive Bayes model trained with accuarcy : 81.5028901734104	[SOURCE]	train.py
+2021-03-15 23:21:22.041113	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-15 23:21:22.059111	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-15 23:21:22.461185	[LOG]	SVM model trained with accuarcy : 83.8150289017341	[SOURCE]	train.py
+2021-03-15 23:21:22.476186	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-15 23:21:22.492188	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-15 23:21:22.530185	[LOG]	knn model trained with accuarcy : 78.03468208092485	[SOURCE]	train.py
+2021-03-15 23:21:22.545198	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-21 21:49:05.435395	[LOG]	150 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-21 21:49:05.474443	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-21 21:54:05.653824	[LOG]	dataset text and lable processed and saved to : OffDataset.csv	[SOURCE]	createDataset.py
+2021-03-22 05:44:30.614215	[ERR]	Google search-error catched-query : {پدرسگ کیری}	[SOURCE]	googleSearch.py
+2021-03-22 08:04:37.616318	[LOG]	713 data saved correctly (google search included) to : OffSplitted.csv	[SOURCE]	gatheringData.py
+2021-03-22 08:04:37.655375	[LOG]	colummns title writed in first line	[SOURCE]	createDataset.py
+2021-03-22 08:28:24.102442	[LOG]	dataset text and lable processed and saved to : OffDataset.csv	[SOURCE]	createDataset.py
+2021-03-22 15:09:41.843264	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-22 15:09:41.864263	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-22 15:09:41.954267	[LOG]	Naive Bayes model trained with accuarcy : 94.07665505226481	[SOURCE]	train.py
+2021-03-22 15:09:41.993264	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-22 15:09:42.008269	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-22 15:09:44.518264	[LOG]	SVM model trained with accuarcy : 95.29616724738676	[SOURCE]	train.py
+2021-03-22 15:09:44.562264	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-22 15:09:44.575266	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-22 15:09:44.699268	[LOG]	knn model trained with accuarcy : 90.41811846689896	[SOURCE]	train.py
+2021-03-22 15:09:44.738267	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-22 15:31:36.017402	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-22 15:31:36.271627	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-22 15:31:36.304623	[LOG]	Naive Bayes model trained with accuarcy : 50.34843205574913	[SOURCE]	train.py
+2021-03-22 15:31:36.316625	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-22 15:31:36.331622	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-22 15:31:40.174624	[LOG]	SVM model trained with accuarcy : 49.12891986062718	[SOURCE]	train.py
+2021-03-22 15:31:40.191621	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-22 15:31:40.202622	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-22 15:31:40.306622	[LOG]	knn model trained with accuarcy : 50.87108013937283	[SOURCE]	train.py
+2021-03-22 15:31:40.321622	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-03-22 16:03:17.118321	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-03-22 16:03:17.139323	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-03-22 16:03:17.162324	[LOG]	Naive Bayes model trained with accuarcy : 94.07665505226481	[SOURCE]	train.py
+2021-03-22 16:03:17.175323	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-03-22 16:03:17.185322	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-03-22 16:03:19.557327	[LOG]	SVM model trained with accuarcy : 95.29616724738676	[SOURCE]	train.py
+2021-03-22 16:03:19.570325	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-03-22 16:03:19.586326	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-03-22 16:03:19.694325	[LOG]	knn model trained with accuarcy : 90.41811846689896	[SOURCE]	train.py
+2021-03-22 16:03:19.708326	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
+2021-04-05 14:34:38.295306	[LOG]	fit process started with parameteres : save_model : True - plotting : True - models : ALL	[SOURCE]	train.py
+2021-04-05 14:34:38.319305	[LOG]	starting Naive Bayes training.	[SOURCE]	train.py
+2021-04-05 14:34:38.340306	[LOG]	Naive Bayes model trained with accuarcy : 94.07665505226481	[SOURCE]	train.py
+2021-04-05 14:34:38.349309	[LOG]	NB Model Saved to trained_models\naive_bayes_model.pkl	[SOURCE]	train.py
+2021-04-05 14:34:38.360308	[LOG]	starting SVM training.	[SOURCE]	train.py
+2021-04-05 14:34:40.719306	[LOG]	SVM model trained with accuarcy : 95.29616724738676	[SOURCE]	train.py
+2021-04-05 14:34:40.738303	[LOG]	SVM Model Saved to trained_models\svm_model.pkl	[SOURCE]	train.py
+2021-04-05 14:34:40.786308	[LOG]	starting knn training.	[SOURCE]	train.py
+2021-04-05 14:34:40.941307	[LOG]	knn model trained with accuarcy : 90.41811846689896	[SOURCE]	train.py
+2021-04-05 14:34:40.959308	[LOG]	knn Model Saved to trained_models\knn_model.pkl	[SOURCE]	train.py
